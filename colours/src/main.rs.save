@@ -1,0 +1,20 @@
+GNU nano 6.2              main.rs *
+enum Colours{
+
+    Blue,
+    Green,
+    Orange,
+    White,
+}
+
+fn show_colour(my_colour: Colour) {
+
+    match my_colour {
+        Colour::Blue => println!("It's blue!"),
+        Colour::Green => println!("It's green!"),
+        Colour::Orange => println!("It's oramge!")
+
+
+fn main() {
+    println!("Hello, world!");
+}

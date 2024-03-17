@@ -1,0 +1,10 @@
+fn main() {
+
+    enum Direction {
+
+        "Up",
+        "Down",
+        "
+
+    println!("Hello, world!");
+}

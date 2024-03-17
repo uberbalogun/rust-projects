@@ -1,0 +1,14 @@
+use std::io;
+
+fn main(){
+    let mut user_input_1 = Num::new(); 
+    io::stdin()
+        .read_line(&mut user_input_1)
+
+    let x = 2;
+    let y = 3;
+    let z = x * y;
+
+    println!("The product of {x} and {y} is:{z}");
+}
+

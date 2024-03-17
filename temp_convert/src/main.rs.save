@@ -1,0 +1,18 @@
+fn main() {
+    
+    let fresult = to_fahrenheit(100.0);
+
+    println!("{fresult}");
+
+    fn to_fahrenheit(f: f64) -> f64 {
+    1.8 * f + 32.0 
+    
+    }
+    
+    let cbase = 5/9
+    fn to_celcius(c: f64) -> f64 {
+    5/9 * c - 32.0
+    
+    }
+    
+}
